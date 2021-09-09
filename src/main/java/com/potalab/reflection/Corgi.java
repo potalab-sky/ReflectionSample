@@ -8,7 +8,7 @@ public class Corgi implements Dog {
         System.out.println("...");
     }
 
-    private void secret(String msg, boolean secret) {
+    private void secret(/*String msg, boolean secret*/) {
         System.out.println("hello");
     }
 

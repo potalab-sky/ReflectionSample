@@ -14,7 +14,7 @@ public class MethodTest {
 
         for (Method method : clazz.getDeclaredMethods()) {
             if (Modifier.isPrivate(method.getModifiers())) {
-                continue;
+//                method.setAccessible(true);
             }
             method.invoke(obj);
         }
